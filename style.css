@@ -1,0 +1,110 @@
+body{
+	margin: 10px;
+	padding: 10px;
+}
+header{
+	background-color: blue;
+	color: white;
+	padding: 30px;
+	text-align: center;
+}
+nav{
+	overflow: hidden;
+	padding: 10px;
+	background-color: grey;
+}
+nav a{
+	text-align: center;
+	padding: 120px;
+	text-decoration: none;
+	color: black;
+}
+nav a:hover{
+	background-color: green;
+	color: white;
+}
+.row{
+	float: left;
+}
+.row.top{
+	width: 50%;
+}
+	width: 50%;
+	clear: both;
+.row.middle{
+}
+.column.side{
+	float: right;
+	position: relative;
+	bottom: 400px;
+	width: 30%;
+	margin-right: 50px;
+	background-color: grey;
+	padding: 20px;
+	overflow: hidden;
+}
+footer{
+	clear: both;
+	background-color: green;
+	padding: 10px;
+	text-align: center;
+
+}
+div.photo img{
+	width: 300px;
+	height: 400px;
+	float: right;
+	margin-right: 140px;
+	position: relative;
+	bottom: 450px;
+}
+div.logo{
+	width: 300px;
+	height: 50px;
+	float: left;
+	margin-left: 140px;
+	position: relative;
+	bottom: 1160px;
+	background-color: red;
+	line-height: 8px;
+	padding: 20px;
+	border: 2px solid black;
+	border-radius: 10px 0px 10px 5px;
+}
+p{
+	text-align: justify;
+}
+input[type=submit]{
+	background-color: green;
+	color: white;
+	padding: 8px;
+	cursor: pointer;
+	float: right;
+	margin: 20px 170px ;
+	}
+div.image{
+	margin: 5px;
+	border: solid red;
+	float: left;
+	width: 200px;
+}
+div.image:hover{
+	border: 3px solid black;
+	}
+div.image img{
+	width: 100%;
+	height: auto;
+}	
+div.desc{
+	padding: 10px;
+}
+input[type=text],textarea,select{
+	width: 100%;
+	border: 2px solid black;
+	margin: 10px 0px 5px;
+}
+input[type=number],textarea,select{
+	width: 100%;
+	border: 2px solid black;
+	margin: 10px 0px 5px;
+}
